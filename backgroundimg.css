@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('SL_0210121_40570_75.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Example font */
+}

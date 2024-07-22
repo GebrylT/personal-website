@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Rehab Fashion</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Light gray background */
+            font-family: Arial, sans-serif; /* Example font */
+        }
+
+        .content-box {
+            background-color: #fff;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section for Contact Page -->
+    <main>
+        <div class="content-box">
+            <section id="contact">
+                <h1>Contact Us</h1>
+                
+                <p>For inquiries or assistance, please fill out the form below:</p>
+                
+                <div class="contact-form">
+                    <form action="submit_contact_form.php" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+                <p>Alternatively, you can reach us directly:</p>
+                <ul>
+                    <li>Email: <a href="mailto:gebrylgamer@gmail.com">gebrylgamer@gmail.com</a></li>
+                    <li>Phone: <a href="tel:+16783603229">678-360-3229</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <link rel="stylesheet" href="backgroundimg.css">
+</body>
+</html>

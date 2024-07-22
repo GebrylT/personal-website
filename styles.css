@@ -1,0 +1,75 @@
+/* Basic Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 0px 0;
+    background-color: dimgrey;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Main Content Styling */
+main {
+    padding: px;
+    
+    
+    
+}
+
+#steps {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#steps h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#steps ol {
+    list-style-position: inside;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
